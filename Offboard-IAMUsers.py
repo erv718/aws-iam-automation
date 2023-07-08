@@ -3,6 +3,7 @@ import csv
 import pandas as pd
 from botocore.exceptions import ClientError
 
+# v2: added multi-profile iteration across all configured accounts
 # AWS profiles for different environments
 aws_profiles = ["ACCOUNTID"]
 
