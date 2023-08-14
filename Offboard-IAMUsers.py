@@ -7,6 +7,7 @@ from botocore.exceptions import ClientError
 # AWS profiles for different environments
 aws_profiles = ["ACCOUNTID"]
 
+# v3: Excel output via pandas, partial failure handling added
 # Path for the log file
 log_file_path = "C:/Users/$env:USERNAME/Desktop/iam_user_log.xlsx"
 
